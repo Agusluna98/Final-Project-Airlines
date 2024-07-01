@@ -1,108 +1,66 @@
 <div align="center">
   <h1 style="font-weight:bold;">
-    📊 Análisis estratégico para URAL AIRLINES
+    📊 Análisis estratégico para BIOGENESYS
   </h1>
-  <img src="https://i.imgur.com/cgMPZKx.png" width="900px">
+  <img src="https://imgur.com/0802f768-8e7f-4f78-b2ce-ad1c5bad7a07" width="900px">
   <br> 
-  <img src="https://i.imgur.com/JsSDnRk.png" width="900px">
+  <img src="blob:https://imgur.com/ca48b36f-2879-4bf6-9e51-5fe7d640c81a" width="900px">
 </div>
+🧬 Descripción del Proyecto:
+BIOGENESYS necesita ubicar regiones y recolectar datos que sean de importancia y que les ayuden a tomar decisiones en su estrategia de expansión en Latinoamérica, específicamente en Colombia,Argentina, Chile, México, Perú y Brasil.
 
----
+:stop_sign: Problemática:
+Necesidad de datos limpios y de calidad para análisis confiables.
+Mejora del acceso y manejo de grandes volúmenes de datos.
+Desarrollo de herramientas visuales que permitan la toma de decisiones informadas.
+Identificación de áreas críticas para la expansión de BIOGENESYS.
+🎯 Objetivo Principal:
 
-### ✈️ Descripción del Proyecto:
+Análisis Exploratorio de Datos:
 
-El proyecto se centra en la aerolínea rusa **"Ural Airlines"**, que enfrenta desafíos únicos en la optimización de operaciones y la mejora de la experiencia del pasajero. Como líder en el mercado de la aviación, Ural Airlines busca aprovechar el análisis de datos para abordar sus necesidades específicas y mejorar su eficiencia operativa, puntualidad de vuelos y satisfacción del cliente. La implementación de soluciones personalizadas basadas en datos permitirá a Ural Airlines mantener su posición competitiva y ofrecer un servicio excepcional a sus pasajeros.
+Realizar un análisis exploratorio de datos sobre la incidencia de COVID-19 y otros factores relevantes.
+Aplicar técnicas de limpieza de datos para asegurar la calidad de los datos.
+Mejorar el acceso a los datos mediante operaciones eficientes de ETL (Extracción, Transformación y Carga).
+Desarrollar dashboards interactivos con visualizaciones eficientes.
+Limpieza y Preparación de Datos:
 
----
+Aplicar técnicas de limpieza de datos para asegurar la calidad y consistencia de los datos.
+Mejora en el Acceso a Datos mediante ETL:
 
-### :stop_sign: Problemática:
+Implementar procesos de ETL para facilitar el acceso y manipulación de grandes volúmenes de datos.
+Desarrollo de Dashboards Interactivos:
 
-El problema central es la ineficiencia en la gestión de vuelos, lo que resulta en retrasos, cancelaciones y una mala experiencia para los pasajeros. Este problema afecta la rentabilidad de las aerolíneas y su reputación en el mercado. Aunque existen soluciones tecnológicas en el mercado, muchas aerolíneas aún luchan por integrar estos sistemas de manera efectiva. Además, hay una creciente demanda de análisis predictivo para anticipar problemas y optimizar recursos.
+Crear dashboards interactivos que permitan explorar los datos desde múltiples perspectivas y faciliten la toma de decisiones estratégicas.
 
----
-
-### 	:dart: Objetivo Principal:
-
-Desarrollar un sistema de análisis de datos que mejore la gestión de operaciones y optimice la experiencia del pasajero en aerolíneas. Esto incluye la elaboración de dashboards interactivos para el monitoreo en tiempo real, la optimización de recursos y el análisis detallado de datos de vuelo para identificar áreas de mejora. El valor agregado radica en la integración de múltiples fuentes de datos para proporcionar una visión holística y en tiempo real de las operaciones.
-
----
-
-### :chart_with_upwards_trend: Resultados esperados & Impacto:
-
-Desarrollar un sistema de análisis de datos que mejore la gestión de operaciones y optimice la experiencia del pasajero en aerolíneas. Esto incluye la elaboración de dashboards interactivos para el monitoreo en tiempo real, la optimización de recursos y el análisis detallado de datos de vuelo para identificar áreas de mejora. El valor agregado radica en la integración de múltiples fuentes de datos para proporcionar una visión holística y en tiempo real de las operaciones.
-
----
-
-### 	:file_cabinet: Fuentes de Datos
-
-El equipo trabajará con una base de datos proporcionada por el cliente que incluye múltiples tablas relacionadas con las operaciones de sus vuelos que comprenden el periodo de junio a septiembre de 2017. Estas tablas se integrarán en una base de datos interna que incluye múltiples tablas relacionadas con las operaciones de vuelo. Estas tablas son:
-- *Aircrafts data:* Información sobre los aviones. 
-- *Airports data:* Detalles de los aeropuertos.
-- *Boarding passes:* Información sobre los boletos de embarque.
-- *Bookings:* Datos de las reservaciones.
-- *Flights:* Detalles de cada vuelo.
-- *Seats:* Información sobre los asientos de los aviones. 
-- *Tickets Flights:* Detalles de los boletos y los vuelos asociados.
-- *Tickets:* Información sobre los boletos y los pasajeros.
-
----
-
-### :card_file_box: Descripción de los Datos:
-
-Los datos se almacenan en un formato estructurado en una base de datos SQLite. Se hará la exportación en un archivo CSV para un mejor manejo. Los datos muestran información detallada sobre aviones, aeropuertos, vuelos, boletos, reservaciones y asientos. Esta información proviene de registros propios de la aerolínea y se actualizará periódicamente para asegurar la relevancia y precisión de los análisis.
-
----
-
-### :mag: Requerimentos del Caso:
-
-Se requiere que los analistas desarrollen modelos de análisis predictivo y descriptivo para abordar preguntas críticas como:
-- ¿Cuáles son los principales factores que contribuyen a los retrasos de los vuelos?
-- ¿Cómo se puede optimizar la asignación de recursos en los vuelos y las rutas?
-- ¿Qué patrones se pueden identificar en los datos de reservas y boletos que puedan mejorar la experiencia del pasajero?
-
----
-
-### :clipboard: Tareas:
-
-El proyecto se dividirá en las siguientes fases y tareas: 
-
-1. **Recolección y Preparación de Datos:**
-Importación de datos desde la base de datos SQLite
-Uso herramienta DB Browser for SQLite para conversión a CSV
-Uso de Excel para una primera transformación de datos, que consiste en eliminar información en idioma ruso, la cual también existe en inglés.
-Limpieza y transformación de los datos, incluyendo datos nulos y faltantes, usando Python y sus librerías como Pandas y Numpy.
-
-2. **Análisis Exploratorio de Datos (EDA):**
-Visualización de datos utilizando Matplotlib y Seaborn.
-Identificación de tendencias y patrones iniciales.
-Análisis descriptivo para entender las características de los datos.
-
-3. **Desarrollo de Dashboards:**
-Creación de dashboards interactivos utilizando Power BI para la visualización periódica de métricas clave.
-Implementación de visualizaciones para el monitoreo continuo de operaciones y desempeño.
-
-4. **Documentación y Presentación:**
-Creación de un reporte detallado con los hallazgos y recomendaciones.
-Presentación de resultados a las partes interesadas utilizando visualizaciones claras y concisas.
-
-5. **Técnicas Estadísticas y Herramientas de Software:**
-DB Brower for sqlite para la conversion del archivo sqlite a formato csv SQL: Para la consulta y gestión de bases de datos.
-Medidas de tendencia central y de dispersión.
-
-### :computer: Tecnologías:
-
-- 🗃️ **SQL.** Base de Datos
-- 🐍 **Python.** Para análisis de datos, modelado predictivo, y visualización. Librerías: Pandas, Numpy, Matplotlib, Seaborn.
-- 📊 **Power BI.** Para la creación de dashboards y visualizaciones interactivas.
+🏆 Logros del Proyecto
+Se realizó un análisis exploratorio de datos sobre la incidencia de COVID-19 y otros factores relevantes, identificando tendencias y oportunidades mediante estadísticas.
+Se aplicaron técnicas de limpieza de datos, eliminando datos inconsistentes y asegurando conjuntos de datos listos para un análisis detallado.
+Se mejoró el acceso a los datos mediante operaciones eficientes de ETL, aumentando la eficacia del análisis y la toma de decisiones.
+Se desarrollaron dashboards interactivos con visualizaciones eficientes, permitiendo explorar datos desde múltiples perspectivas y facilitando la toma de decisiones informada.
 
 
-Este plan proporcionará una base sólida para abordar las preguntas de investigación y lograr los objetivos del proyecto, asegurando un análisis de datos efectivo y un impacto positivo en las operaciones de la aerolínea.
+🛠️ Herramientas Utilizadas
 
----
+🐍 Python: Utilizado para la limpieza, transformación y análisis de datos.
+🗃️ Pandas: Para la manipulación y análisis de datos.
+🔢 NumPy: Para operaciones matemáticas y estadísticas.
+📉 Matplotlib y Seaborn: Para la visualización de datos.
+📊 Power BI/Tableau: Para el desarrollo de dashboards interactivos.
+🗄️ SQL: Para consultas y manipulación de bases de datos.
+☁️ Google Drive: Para almacenamiento y acceso compartido a los datos.
+📝 Metodología de Recopilación y Selección de Datos
+Se obtuvo un dataset inicial que contenía alrededor de 22 millones de registros y 707 columnas.
+Se trabajó en conjunto con el equipo de ingeniería de datos para crear un subset específico enfocado en Latinoamérica, reduciendo el número de registros a 12,216,057 filas y 50 columnas.
+Se aseguraron datos relevantes para las necesidades estratégicas de BIOGENESYS.
 
-### 👥 Colaboradores: 
-- **Número de colaboradores:** 5
-- **Empresa:** Power Insights Lab
+🔄 Transformaciones y Limpieza de Datos
+Se realizaron diversas transformaciones y procesos de limpieza para asegurar que el dataset final fuera apto para el análisis.
+Estas transformaciones y limpieza de datos aseguraron un dataset de alta calidad, adecuado para extraer insights relevantes.
+
+🔚 Conclusiones
+El proyecto permitió a BIOGENESYS comprender mejor el entorno de los países de interés y las necesidades específicas de cada región.
+La identificación de áreas críticas y la optimización de recursos permitió mejorar la planificación y asignación de recursos.
+El desarrollo de dashboards interactivos proporcionó una herramienta visual poderosa para la toma de decisiones estratégicas.
 
 ---
 
