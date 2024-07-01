@@ -4,7 +4,7 @@
   </h1>
   <img src="https://imgur.com/0802f768-8e7f-4f78-b2ce-ad1c5bad7a07" width="900px">
   <br> 
-  <img src="blob:https://imgur.com/ca48b36f-2879-4bf6-9e51-5fe7d640c81a" width="900px">
+  <img src="https://imgur.com/ca48b36f-2879-4bf6-9e51-5fe7d640c81a" width="900px">
 </div>
 🧬 Descripción del Proyecto:
 BIOGENESYS necesita ubicar regiones y recolectar datos que sean de importancia y que les ayuden a tomar decisiones en su estrategia de expansión en Latinoamérica, específicamente en Colombia,Argentina, Chile, México, Perú y Brasil.
