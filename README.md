@@ -2,9 +2,9 @@
   <h1 style="font-weight:bold;">
     📊 Análisis estratégico para BIOGENESYS
   </h1>
-  <img src="https://i.imgur.com/0802f768.png" width="900px">
+  <img src="https://i.imgur.com/LQ935SV.png" width="900px">
   <br> 
-  <img src="https://i.imgur.com/ca48b36f.png" width="900px">
+  <img src="https://i.imgur.com/oBawGUU.png" width="900px">
 </div>
 
 🧬 Descripción del Proyecto:
